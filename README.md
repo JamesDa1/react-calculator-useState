@@ -1,4 +1,9 @@
-# react-calculator-useState
+# react-calculator-useState 
+SourceCode is under Master instead of Main
+
+Gh-pages Link: https://jamesda1.github.io/react-calculator-useState/
+
+
 Attempt at the homework, not sure if my mapping solution for numbers is valid. I did map from an array, but
 used switch to insert [+, -, /, * , equals, reset]. It was supposed to be a temporary solution so we could
 get started on the "proper functionality", but remains since since I got stuck on redux.

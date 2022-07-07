@@ -1,6 +1,5 @@
 # react-calculator-useState 
 SourceCode is under Master instead of Main
-![image](https://user-images.githubusercontent.com/104003738/177829811-19037aba-305a-42ce-b1ee-395d67845b5d.png)
 
 Gh-pages Link: https://jamesda1.github.io/react-calculator-useState/
 
@@ -16,3 +15,5 @@ Used:
 - props, passed functions from parent to children to change and display state
 - styled components to make the code more reusable and changable
 - gh-pages to deploy the react-app
+
+![image](https://user-images.githubusercontent.com/104003738/177829811-19037aba-305a-42ce-b1ee-395d67845b5d.png)

@@ -12,12 +12,14 @@ const CalculatorApp = () => {
     setMathString(mathString + e.target.textContent);
   };
 
+  // Use slicing to return a slice of the string.  "STOP" => "STO"
   const deleteCharacter = () => {
     setMathString(mathString.slice(0, -1));
   };
 
+  // Checks if the solution contains ".", rounds to 3 decimals
+  // eval is not safe, could have parsed the string with regex
   const solveEquation = () => {
-    // Checks if the solution contains ".", rounds to 3 decimals
     setMathString(
       eval(mathString).toString().includes(".")
         ? eval(mathString).toFixed(3).toString()

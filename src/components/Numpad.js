@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Numpad = ({ addToString, deleteCharacter, solveEquation, clearAll }) => {
   const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
+  // used .map on the array, combined with switch to insert the other buttons
   return (
     <CalcBody>
       {numbers.map((num) => {

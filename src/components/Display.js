@@ -2,16 +2,10 @@ import styled from "styled-components";
 const Display = ({ mathString }) => {
   return (
     <CalcScreen>
-      {/* <pre>{JSON.stringify(viewCalculator)}</pre> */}
       <StyledInput
         name="calc"
         id="screen"
         readOnly
-        // value={
-        //   viewCalculator.ans.length === 0
-        //     ? viewCalculator.number
-        //     : viewCalculator.ans
-        // }
         value={mathString ? mathString : ""}
       ></StyledInput>
     </CalcScreen>
